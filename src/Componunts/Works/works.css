@@ -1,0 +1,48 @@
+#works{
+    min-height: (100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.workTitle{
+    margin: 0.5rem 0;
+    font-size: 3rem;
+}
+
+.companyName{
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 0.8rem;
+}
+
+.Desiganation{
+    font-weight: 400;
+    font-style: italic;
+    padding: auto;
+}
+
+.duration{
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+
+.workDescription{
+    font-weight: 400;
+    font-size: 1.2rem;
+    min-width: 40rem;
+    padding: 0 1rem;
+}
+
+
+@media screen  and (max-width:585px) {
+    .workDescription{
+        height:50vh;
+        
+    }
+}

@@ -1,0 +1,54 @@
+#project{
+    min-height: (100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.cogniproject{
+    margin: 0.5rem 0;
+    font-size: 3rem;
+    padding-top: 2rem;
+   
+}
+
+.ciqdApp{
+    padding-right: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.timeline{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.ciqdAppText{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.googleApp{
+    padding-right: 27rem; 
+    padding-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.googleAppText{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+@media screen  and (max-width:585px) {
+    .googleAppText{
+        height:50vh;
+        
+    }
+    .ciqdAppText{
+        height:50vh;
+    }
+}
